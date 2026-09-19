@@ -227,7 +227,7 @@ td a{color:inherit;font-weight:600}
 </style>
 <div class="wrap">
 
-<div class="verstamp"><b>V26</b><span>Updated Sep 19, 2026 at 1:14 PM CT</span></div>
+<div class="verstamp"><b>V26</b><span>Updated Sep 19, 2026 at 4:24 PM CT</span></div>
 
 <section style="display:grid;gap:12px">
   <div class="tablewrap glancewrap"><table>
@@ -304,7 +304,7 @@ td a{color:inherit;font-weight:600}
 
 
 <header>
-  <div class="eyebrow">Way Out There · Schedule draft v25 · Fri Sept 18</div>
+  <div class="eyebrow">Way Out There · Schedule draft v26 · Fri Sept 18</div>
   <p class="sub" style="font-weight:600;color:var(--ink)">CURRENT schedule: this link always shows the newest version. Every change gets its own number — this is v26.</p>
   <h1>20 minutes to first shot, and the dining room lands on Day 4</h1>
   <p class="sub">Draft v12 plus your Sept 17 evening notes. Every day that opens on a scene now has 20 minutes between crew call and the first shot, and every time on the board is the moment you move on from the previous scene. 19 moves to Day 1, 28 and 30 to Day 4 with 34, 37 to Day 4 behind 35, 43 to Day 6 with 40. Day 3 eats after the company move. Each scene shows a short synopsis, any archival footage it needs, and the page it starts on (WOT_9.16). The archival list by shoot day is a separate live page: <a href="https://claude.ai/artifact/7m9Hwma7sztvvdMzt9EvPz">WOT Archival Footage by Shoot Day</a>.</p>
@@ -394,7 +394,7 @@ td a{color:inherit;font-weight:600}
     var past=[].slice.call(tb.querySelectorAll('tr[data-date]:not([data-follow])')).filter(function(r){return r.getAttribute('data-date')<t;});
     if(past.length){
       var sep=document.createElement('tr'); sep.className='sepRow';
-      var td=document.createElement('td'); td.colSpan=5; td.textContent='Already shot'; sep.appendChild(td); tb.appendChild(sep);
+      var td=document.createElement('td'); td.colSpan=7; td.textContent='Already shot'; sep.appendChild(td); tb.appendChild(sep);
       past.forEach(function(r){
         var f=r.nextElementSibling;
         r.className=(r.className?r.className+' ':'')+'pastrow'; tb.appendChild(r);
